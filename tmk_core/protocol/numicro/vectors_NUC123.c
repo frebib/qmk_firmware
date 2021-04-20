@@ -120,6 +120,6 @@ handler __Vectors[] = {
     RTC_IRQHandler,
 };
 
-__attribute__ ((__noreturn__))
+//__attribute__ ((__noreturn__))
 void Default_Handler(void) { do {} while (1); }
 
